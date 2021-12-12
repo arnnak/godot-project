@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Geometry/potted plant/potted_plant.glb" type="PackedScene" id=1]
+
+[sub_resource type="CylinderShape" id=1]
+radius = 0.30923
+height = 50.0
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 45, 32.2002, 27.4279 )
+
+[sub_resource type="CylinderShape" id=3]
+radius = 0.7
+height = 28.0307
+
+[node name="potted_plant" instance=ExtResource( 1 )]
+
+[node name="RigidBody" type="RigidBody" parent="VP Phoenix Palm v2" index="0"]
+transform = Transform( 200, 0, 0, 0, 300, 0, 0, 0, 200, -3.0892, 60.3116, -3.96341 )
+mode = 3
+
+[node name="CollisionShape2" type="CollisionShape" parent="VP Phoenix Palm v2/RigidBody" index="0"]
+transform = Transform( 0.08, 0, 0, 0, 0.00346667, 0, 0, 0, 0.1, -0.00592421, 0.00541496, 0.00362852 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="VP Phoenix Palm v2/RigidBody" index="1"]
+transform = Transform( 0.0056, 0, 0, 0, 0.00303333, 0, 0, 0, 0.005, -0.0104682, 0.146759, 0.00475451 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape3" type="CollisionShape" parent="VP Phoenix Palm v2/RigidBody" index="2"]
+transform = Transform( 0.104, 0, 0, 0, 0.00433333, 0, 0, 0, 0.1, -0.0059362, -0.140341, 0.00761952 )
+shape = SubResource( 3 )
