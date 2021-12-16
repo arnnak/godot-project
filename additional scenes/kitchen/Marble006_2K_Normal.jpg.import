@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/Marble006_2K_Normal.jpg-6d25f1dad51b7fafecbd270e3168d9c8.s3tc.stex"
+path.etc2="res://.import/Marble006_2K_Normal.jpg-6d25f1dad51b7fafecbd270e3168d9c8.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://additional scenes/kitchen/Marble006_2K_Normal.jpg"
+dest_files=[ "res://.import/Marble006_2K_Normal.jpg-6d25f1dad51b7fafecbd270e3168d9c8.s3tc.stex", "res://.import/Marble006_2K_Normal.jpg-6d25f1dad51b7fafecbd270e3168d9c8.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=1
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
